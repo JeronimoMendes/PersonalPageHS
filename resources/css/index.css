@@ -1,0 +1,142 @@
+body, html {
+    height: 100%;
+}
+
+html * {
+    font-family: "Poppins";
+}
+
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.header {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header h1 {
+    margin: 0;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+ /* Style the navbar */
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: linear .3s;
+}
+.scrolled {
+    background: white;
+}
+
+.navbar.scrolled a{
+    color: rgb(37, 37, 37);
+}
+
+/* Navbar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    transition: linear .3s;
+    font-size: 1.5rem;
+}
+
+/* Containers styling */
+.container {
+    padding: 10%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: rgb(37, 37, 37);
+}
+
+.container h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.container.white h1 {
+    color: rgb(37, 37, 37);
+}
+
+.container.grey h1 {
+    color: white;
+}
+
+/* Structure with cards */
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 31%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.card img {
+    height: 150px;
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    }
+}
+
+
+footer {
+    padding: 1rem 0 1rem 0;
+    display: block;
+    background-color: rgb(37, 37, 37);
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
