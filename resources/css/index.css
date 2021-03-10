@@ -31,7 +31,7 @@ body {
 
 .loaded {
     opacity: 1 !important; 
-    transition: cubic-bezier(.77,0,.18,1) 1s !important;   
+    transition: cubic-bezier(.77,0,.18,1) 1s;   
 }
 
 .header h1 {
