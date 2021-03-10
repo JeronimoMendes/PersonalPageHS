@@ -1,9 +1,14 @@
-var navbar = document.getElementsByClassName("navbar");
+// Loading animation
+var loading = document.getElementsByClassName("loading")
+while (loading.length > 0) {
+    console.log(loading[0]);
+    loading[0].classList.add("loaded");
+    loading[0].classList.remove("loading");
+}
 
-var title = document.getElementById("name")
 
-title.classList.add("loaded");
 // Changes navbar background
+var navbar = document.getElementsByClassName("navbar");
 window.onscroll = function() {
     console.log("Scrolling");
     // pageYOffset or scrollY

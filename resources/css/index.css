@@ -11,7 +11,7 @@ body {
     padding: 0px !important;
 }
 
-.header {
+#header {
     height: 100vh;
     width: 100vw;
     max-width: 100%;
@@ -21,19 +21,25 @@ body {
     background-size: cover;
 }
 
+.loading {
+    opacity: 0;
+    
+}
+
+.loaded {
+    opacity: 1 !important; 
+    transition: cubic-bezier(.77,0,.18,1) 1s !important;   
+}
+
 .header h1 {
     margin: 0;
     padding-top: 200px;
     text-align: center;
     font-size: 4rem;
     color: white;
-    opacity: 0;
     transition: cubic-bezier(.77,0,.18,1) 1s;
 }
 
-.loaded {
-    opacity: 1 !important;
-}
 
  /* Style the navbar */
 .navbar {
