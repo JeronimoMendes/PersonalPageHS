@@ -1,5 +1,8 @@
 var navbar = document.getElementsByClassName("navbar");
 
+var title = document.getElementById("name")
+
+title.classList.add("loaded");
 // Changes navbar background
 window.onscroll = function() {
     console.log("Scrolling");
@@ -10,3 +13,4 @@ window.onscroll = function() {
         navbar[0].classList.remove('scrolled');
     }
 }
+

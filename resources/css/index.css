@@ -27,6 +27,12 @@ body {
     text-align: center;
     font-size: 4rem;
     color: white;
+    opacity: 0;
+    transition: cubic-bezier(.77,0,.18,1) 1s;
+}
+
+.loaded {
+    opacity: 1 !important;
 }
 
  /* Style the navbar */
