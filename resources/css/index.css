@@ -19,7 +19,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .header h1 {
@@ -91,12 +90,13 @@ body {
 .column {
     float: left;
     width: 31%;
-    padding: 0 10px;
+    padding: 10px 10px;
+    
 }
 
 /* Remove extra left and right margins, due to padding in columns */
 .row {
-    margin: 0 -5px;
+    margin: 0px;
     padding: 1.5rem 0 1.5rem 0;
 }
 
@@ -113,12 +113,12 @@ body {
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    transition: 0.6s ease;
 }
 
 .card img {
     height: 150px;
 }
-
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {

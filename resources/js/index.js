@@ -1,5 +1,6 @@
 var navbar = document.getElementsByClassName("navbar");
 
+// Changes navbar background
 window.onscroll = function() {
     console.log("Scrolling");
     // pageYOffset or scrollY
