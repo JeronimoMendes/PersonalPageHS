@@ -23,6 +23,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 .loading {
@@ -37,12 +38,16 @@ body {
 .header h1 {
     margin: 0;
     padding-top: 200px;
-    text-align: center;
     font-size: 4rem;
     color: white;
     transition: cubic-bezier(.77,0,.18,1) 1s;
 }
 
+.bio {
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1.8rem;
+}
 
  /* Style the navbar */
 .navbar {

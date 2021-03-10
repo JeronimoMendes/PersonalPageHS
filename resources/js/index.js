@@ -1,3 +1,4 @@
+
 // Loading animation
 var loading = document.getElementsByClassName("loading")
 while (loading.length > 0) {
@@ -19,3 +20,16 @@ window.onscroll = function() {
     }
 }
 
+
+new TypeIt("#bio", {
+    speed: 70
+  })
+    .type("computer science student")
+    .pause(700)
+    .delete()
+    .type("programmer")
+    .pause(500)
+    .delete()
+    .type("photography enthusiast")
+    .go();
+  
