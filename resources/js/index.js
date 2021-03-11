@@ -29,10 +29,10 @@ new TypeIt("#bio", {
     .pause(700)
     .delete()
     .type("programmer")
-    .pause(500)
+    .pause(600)
     .delete()
     .type("photography enthusiast")
-    .pause(500)
+    .pause(600)
     .delete()
     .type("amateur chess player")
     .go();

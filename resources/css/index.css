@@ -143,6 +143,10 @@ body {
     padding-right: 3rem;
 }
 
+.resume-content ul li::marker {
+    color: rgb(37, 37, 37, 0.4);
+    opacity: 40%;
+}
 
 /* Structure with cards */
 /* Float four columns side by side */
