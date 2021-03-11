@@ -180,6 +180,11 @@ body {
     outline: 0;
     border-width: 0 0 2px;
     border-color: rgb(37, 37, 37);
+    transition: cubic-bezier(.77,0,.18,1) 0.3s;
+}
+
+.input-contact:focus {
+    border-width: 0 0 4px;
 }
 
 .socials {
