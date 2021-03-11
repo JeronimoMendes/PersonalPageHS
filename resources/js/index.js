@@ -22,7 +22,7 @@ window.onscroll = function() {
 
 
 new TypeIt("#bio", {
-    speed: 70,
+    speed: 50,
     loop: true
 })
     .type("computer science student")
@@ -32,4 +32,7 @@ new TypeIt("#bio", {
     .pause(500)
     .delete()
     .type("photography enthusiast")
+    .pause(500)
+    .delete()
+    .type("amateur chess player")
     .go();
